@@ -1,3 +1,3 @@
 ![JavaMongo](/JavaMongo.png)
 
-![(Unnamed workflow)](https://github.com/dawood-dev/JavaMongo/workflows/(Unnamed%20workflow)/badge.svg?branch=master)
+![CI](https://github.com/dawood-dev/JavaMongo/workflows/CI/badge.svg?branch=javamongi-ci)
