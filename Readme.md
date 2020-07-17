@@ -13,5 +13,5 @@ The database contains 2 main JSON collections from the [Sakila](https://dev.mysq
 
 <h1>Architecture</h1>
 
-The architecture for this application is based on best practices for microservices design. It is built using Micronaut, a Spring Boot compatible framework for developing Java microservices. The choice of Micronaut is motivated by its extreme speed and low memory footprint compared to other frameworks. This application is highly scalable because of its robust architecture and build. The application is written using very complex Java design patterns that allow improved abstraction and decoupling of objects. The application is easily extendible due to high levels of abstraction and decoupling. 
+The architecture for this application is based on best practices for microservices design. It is built using Micronaut, a Spring Boot compatible framework for developing Java microservices. The choice of Micronaut is motivated by its extreme speed and low memory footprint compared to other frameworks. This application is highly scalable because of its robust architecture and build. The application is written using very complex Java design patterns that allow improved abstraction and decoupling of objects. The application is easily extensible due to high levels of abstraction and decoupling. 
 
