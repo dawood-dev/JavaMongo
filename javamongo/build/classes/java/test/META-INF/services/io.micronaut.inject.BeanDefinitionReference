@@ -1,0 +1,7 @@
+javamongo.controllers.$RentalsApiControllerTestDefinitionClass
+javamongo.controllers.$RentalsViewControllerTestDefinitionClass
+javamongo.controllers.$FilmsApiControllerTestDefinitionClass
+javamongo.controllers.$FilmsViewControllerTestDefinitionClass
+javamongo.controllers.$CustomerViewControllerTestDefinitionClass
+javamongo.controllers.$CustomersApiControllerTestDefinitionClass
+javamongo.controllers.$ApiControllerTestDefinitionClass

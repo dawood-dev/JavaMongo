@@ -1,0 +1,16 @@
+javamongo.services.$FindFilmsDefinitionClass
+javamongo.controllers.$RentalsApiControllerDefinitionClass
+javamongo.services.$FindCustomersDefinitionClass
+javamongo.configs.$MongoConfigPropertiesDefinitionClass
+javamongo.controllers.$FilmsViewControllerDefinitionClass
+javamongo.adapters.$MongoDataAdapterDefinitionClass
+javamongo.controllers.$CustomersApiControllerDefinitionClass
+javamongo.adapters.$MongoRentalAdapterDefinitionClass
+javamongo.services.$FindRentalsDefinitionClass
+javamongo.controllers.$CustomersViewControllerDefinitionClass
+javamongo.controllers.$FilmsApiControllerDefinitionClass
+javamongo.controllers.$RentalsViewControllerDefinitionClass
+javamongo.adapters.$MongoFilmAdapterDefinitionClass
+javamongo.adapters.$MongoCustomerAdapterDefinitionClass
+javamongo.controllers.$ApiControllerDefinitionClass
+javamongo.services.$FindDataDefinitionClass

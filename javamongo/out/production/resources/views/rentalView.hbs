@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rental Catalog</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+</head>
+<body>
+<section class="section">
+  <div class="container">
+    {{#if rentals}}
+      <h1 class="title">List of all {{@numberOfRentals}} rentals</h1>
+      <div class="content">
+        <table class="table is-striped is-hoverable">
+          <thead>
+          <tr>
+            <th>Customer Id</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+              <th>Rentals</th>
+            <th>Rental Id</th>
+            <th>Film Title</th>
+            <th>Rental Date</th>
+            <th>Return Date</th>
+            <th>Amount Paid</th>
+            <th>Payment Date</th>
+            <th>Staff Id</th>
+          </tr>
+          </thead>
+          <tbody>
+          {{#each rentals}}
+            <tr>
+              <td><strong>{{@customerId}}</strong></td>
+              <td><text style="text-transform: capitalize;">{{@firstName}}</td>
+              <td><text style="text-transform: capitalize;">{{@lastName}}</td>
+                <td>{{@rentals}}</td>
+              <td>{{@rentalId}}</td>
+              <td><text style="text-transform: capitalize;">{{@filmTitle}}</td>
+              <td>{{@rentalDate}}</td>
+              <td>{{@returnDate}}</td>
+              <td>{{@amount}}</td>
+              <td>{{@paymentDate}}</td>
+              <td>{{@staffId}}</td>
+              <td>
+
+              </td>
+            </tr>
+          {{/each}}
+          </tbody>
+        </table>
+      </div>
+    {{else}}
+      <h1>No rentals yet :(</h1>
+    {{/if}}
+  </div>
+</section>
+</body>
+</html>
