@@ -1,0 +1,159 @@
+openapi: 3.0.1
+info:
+  title: javamongo
+  version: "0.0"
+paths:
+  /api:
+    get:
+      operationId: rental
+      parameters: []
+      responses:
+        default:
+          content:
+            application/json:
+              schema:
+                type: string
+  /customersApi:
+    get:
+      operationId: customer
+      parameters: []
+      responses:
+        default:
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Customer'
+  /customerView:
+    get:
+      operationId: customerView
+      parameters: []
+      responses:
+        default:
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ModelAndView'
+  /filmsApi:
+    get:
+      operationId: film
+      parameters: []
+      responses:
+        default:
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Film'
+  /filmView:
+    get:
+      operationId: filmView
+      parameters: []
+      responses:
+        default:
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ModelAndView'
+  /rentalsApi:
+    get:
+      operationId: rental
+      parameters: []
+      responses:
+        default:
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Rental'
+  /rentalView:
+    get:
+      operationId: rentalView
+      parameters: []
+      responses:
+        default:
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ModelAndView'
+components:
+  schemas:
+    Customer:
+      type: object
+      properties:
+        customerId:
+          type: integer
+          format: int32
+        firstName:
+          type: string
+        lastName:
+          type: string
+        address:
+          type: string
+        city:
+          type: string
+        country:
+          type: string
+        district:
+          type: string
+        phone:
+          type: string
+    ModelAndView:
+      type: object
+      properties:
+        view:
+          type: string
+        model:
+          $ref: '#/components/schemas/Object'
+    Object:
+      type: object
+    Film:
+      type: object
+      properties:
+        movieId:
+          type: integer
+          format: int32
+        title:
+          type: string
+        category:
+          type: string
+        description:
+          type: string
+        rating:
+          type: string
+        rentalDuration:
+          type: string
+        length:
+          type: string
+        replacementCost:
+          type: string
+        specialFeatures:
+          type: string
+    Rental:
+      type: object
+      properties:
+        customerId:
+          type: integer
+          format: int32
+        firstName:
+          type: string
+        lastName:
+          type: string
+        rentals_rentalId:
+          type: integer
+          format: int32
+        rentalDate:
+          type: string
+        returnDate:
+          type: string
+        staffId:
+          type: integer
+          format: int32
+        amount:
+          type: number
+          format: double
+        paymentDate:
+          type: string

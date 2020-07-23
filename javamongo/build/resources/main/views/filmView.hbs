@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Film Catalog</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+</head>
+<body>
+<section class="section">
+  <div class="container">
+    {{#if films}}
+      <h1 class="title">List of all {{@numberOfFilms}} films</h1>
+      <div class="content">
+        <table class="table is-striped is-hoverable">
+          <thead>
+          <tr>
+            <th>Movie Id</th>
+            <th>Title</th>
+            <th>Category</th>
+            <th>Descritption</th>
+            <th>Rating</th>
+            <th>Rental Duration</th>
+            <th>Length</th>
+            <th>Replacement Cost</th>
+            <th>Special Features</th>
+
+          </tr>
+          </thead>
+          <tbody>
+          {{#each films}}
+            <tr>
+              <td><strong>{{@movieId}}</strong></td>
+              <td><text style="text-transform: capitalize;">{{@title}}</td>
+              <td><text style="text-transform: capitalize;">{{@category}}</td>
+              <td><text style="text-transform: initial;" autocapitalize="sentences">{{@description}}</td>
+              <td><text style="text-transform: uppercase;" >{{@rating}}</td>
+              <td>{{@rentalDuration}}</td>
+              <td>{{@length}}</td>
+              <td>{{@replacementCost}}</td>
+              <td><text style="text-transform: capitalize;">{{@specialFeatures}}</td>
+              <td>
+              </td>
+            </tr>
+          {{/each}}
+          </tbody>
+        </table>
+      </div>
+    {{else}}
+      <h1>No films yet :(</h1>
+    {{/if}}
+  </div>
+</section>
+</body>
+</html>

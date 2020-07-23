@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a66c6be7-5a5a-4259-851d-38d8987495c8" name="Default Changelist" comment="CI version." />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="module-info" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/dawood-dev/JavaMongo" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1dDWNFXKbgLf8kzNjeSeR1THXSv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/views" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="javamongo" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="javamongo.adapters" />
+      <recent name="javamongo.interfaces" />
+      <recent name="javamongo.services" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Dev\JavaMongo\javamongo\src\main\resources\views" />
+      <recent name="D:\Dev\JavaMongo\javamongo\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.Tests in 'javamongo.test'">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javamongo.Application" />
+      <module name="javamongo.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javamongo.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests in 'javamongo.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests *" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Tests in 'javamongo.test'" />
+        <item itemvalue="Application.Application" />
+        <item itemvalue="Application.Application" />
+        <item itemvalue="Application.Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a66c6be7-5a5a-4259-851d-38d8987495c8" name="Default Changelist" comment="" />
+      <created>1591960102326</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591960102326</updated>
+      <workItem from="1591960107898" duration="911000" />
+      <workItem from="1592000360220" duration="24016000" />
+      <workItem from="1592080967136" duration="9235000" />
+      <workItem from="1592184912256" duration="38559000" />
+      <workItem from="1592265149083" duration="20224000" />
+      <workItem from="1592525858599" duration="6205000" />
+      <workItem from="1592694316000" duration="124000" />
+      <workItem from="1592694618871" duration="256000" />
+      <workItem from="1592694916682" duration="98000" />
+      <workItem from="1592707987918" duration="1604000" />
+      <workItem from="1592887243142" duration="986000" />
+      <workItem from="1593729457588" duration="8704000" />
+      <workItem from="1594077338676" duration="606000" />
+      <workItem from="1594243413567" duration="39000" />
+      <workItem from="1594243529924" duration="4646000" />
+      <workItem from="1594266832368" duration="5835000" />
+      <workItem from="1594689360850" duration="599000" />
+      <workItem from="1594947217909" duration="3245000" />
+      <workItem from="1595484141540" duration="648000" />
+    </task>
+    <task id="LOCAL-00001" summary="Main application and settings.">
+      <created>1593734749049</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593734749049</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Services.">
+      <created>1593735097705</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1593735097705</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Abstract interfaces to be implemented as needed elsewhere.">
+      <created>1593735361177</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1593735361177</updated>
+    </task>
+    <task id="LOCAL-00004" summary="API controllers for RESTful access.">
+      <created>1593737966241</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1593737966241</updated>
+    </task>
+    <task id="LOCAL-00005" summary="View controllers.">
+      <created>1593738082845</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1593738082845</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Data domain classes for POJO and JSON.">
+      <created>1593738225551</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1593738225551</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Data adapters to implement interfaces.">
+      <created>1593738428120</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1593738428120</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Handlebars as view templates.">
+      <created>1593738719700</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1593738719700</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Helper classes for JSON key repair and deserialization.">
+      <created>1593738803600</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1593738803600</updated>
+    </task>
+    <task id="LOCAL-00010" summary="CI version.">
+      <created>1593746323032</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1593746323032</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Main application and settings." />
+    <MESSAGE value="Services." />
+    <MESSAGE value="Abstract interfaces to be implemented as needed elsewhere." />
+    <MESSAGE value="API controllers for RESTful access." />
+    <MESSAGE value="View controllers." />
+    <MESSAGE value="Data domain classes for POJO and JSON." />
+    <MESSAGE value="Data adapters to implement interfaces." />
+    <MESSAGE value="Handlebars as view templates." />
+    <MESSAGE value="Helper classes for JSON key repair and deserialization." />
+    <MESSAGE value="CI version." />
+    <option name="LAST_COMMIT_MESSAGE" value="CI version." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="392" y="0" key="#Dockerfile" timestamp="1594243435945">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="392" y="0" key="#Dockerfile/0.0.1366.738@0.0.1366.738" timestamp="1594243435945" />
+    <state x="413" y="123" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1592022822291">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="413" y="123" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.738@0.0.1366.738" timestamp="1592022822291" />
+    <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592185278248">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1592185278248" />
+    <state x="488" y="75" key="#com.intellij.ide.util.MemberChooser" timestamp="1592528620633">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="488" y="75" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1592528620633" />
+    <state x="413" y="145" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1592009215840">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="413" y="145" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.738@0.0.1366.738" timestamp="1592009215840" />
+    <state x="363" y="104" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1594243446403">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="363" y="104" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.738@0.0.1366.738" timestamp="1594243446403" />
+    <state x="338" y="283" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1592016074432">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="338" y="283" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.738@0.0.1366.738" timestamp="1592016074432" />
+    <state x="466" y="237" width="433" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1592009264146">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="466" y="237" width="433" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.738@0.0.1366.738" timestamp="1592009264146" />
+    <state x="479" y="250" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1592009218799">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="479" y="250" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1366.738@0.0.1366.738" timestamp="1592009218799" />
+    <state x="240" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1592219105363">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="240" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.738@0.0.1366.738" timestamp="1592219105363" />
+    <state x="300" y="121" key="#xdebugger.XInspectDialog" timestamp="1592084720928">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="300" y="121" key="#xdebugger.XInspectDialog/0.0.1366.738@0.0.1366.738" timestamp="1592084720928" />
+    <state x="463" y="123" key="FileChooserDialogImpl" timestamp="1592694995980">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1592694995980" />
+    <state width="1323" height="210" key="GridCell.Tab.0.bottom" timestamp="1594953654327">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="210" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1594953654327" />
+    <state width="1323" height="210" key="GridCell.Tab.0.center" timestamp="1594953654326">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="210" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1594953654326" />
+    <state width="1323" height="210" key="GridCell.Tab.0.left" timestamp="1594953654326">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="210" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1594953654326" />
+    <state width="1323" height="210" key="GridCell.Tab.0.right" timestamp="1594953654326">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="210" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1594953654326" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1592358119798">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1592358119798" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1592358119798">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1592358119798" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1592358119798">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1592358119798" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1592358119798">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1592358119798" />
+    <state x="138" y="21" key="SettingsEditor" timestamp="1594268971692">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="138" y="21" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1594268971692" />
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1593746332058">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1593746332058" />
+    <state x="92" y="92" width="1182" height="554" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1593742137440">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="92" y="92" width="1182" height="554" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1366.738@0.0.1366.738" timestamp="1593742137440" />
+    <state x="92" y="92" width="1182" height="554" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1593730458722">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="92" y="92" width="1182" height="554" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.738@0.0.1366.738" timestamp="1593730458722" />
+    <state x="492" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593734977030">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="492" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1593734977030" />
+    <state x="483" y="270" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1593729666511">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="483" y="270" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1366.738@0.0.1366.738" timestamp="1593729666511" />
+    <state x="75" y="0" key="new project wizard" timestamp="1594269532147">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="75" y="0" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1594269532147" />
+    <state x="339" y="165" key="run.anything.popup" timestamp="1593735212297">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1593735212297" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="GradleRunConfiguration">
+        <watch expression="bson" />
+      </configuration>
+      <configuration name="Remote">
+        <watch expression="bson" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
