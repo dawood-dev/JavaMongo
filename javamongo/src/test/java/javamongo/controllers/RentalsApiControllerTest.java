@@ -14,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 @MicronautTest
 public class RentalsApiControllerTest {
 
-    @Inject
+    /*@Inject
     EmbeddedServer embeddedServer;
 
     @Test
@@ -22,5 +22,5 @@ public class RentalsApiControllerTest {
         try(RxHttpClient client = embeddedServer.getApplicationContext().createBean(RxHttpClient.class, embeddedServer.getURL())) {
             assertEquals(HttpStatus.OK, client.toBlocking().exchange("/rentalsApi").status());
         }
-    }
+    }*/
 }
